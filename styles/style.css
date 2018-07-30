@@ -27,24 +27,6 @@ p, li {
   letter-spacing: 1px;
 }
 
-.container {
-	max-width: 1100px;
-	margin: 20px auto;
-	background-color: white;
-	border-radius: 2px;
-	padding: 20px 20px 20px 20px;
-
-}
-
-.top-banner-box{
-	 width: 100%;
-    height: 300px;
-    margin: 2px auto;
-    text-align:center; /*centers horizontally*/
-    line-height:300px; /*same as height and for centering vertically*/
-    background: radial-gradient(ellipse , #162c69, #2C53C7);
-}
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: white;
     overflow: hidden;
@@ -52,17 +34,8 @@ p, li {
     height: 70px;
     width: auto;
     box-shadow: 0 0 5px #525259;
-
 }
 
-.top-banner-box p {
-
-	padding-top: 40px;
-	color: white;
-	
-}
-
-/* Style the links inside the navigation bar */
 .topnav a {
     float: right;
     display: block;
@@ -81,7 +54,6 @@ p, li {
 	margin-top: 2px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
@@ -93,7 +65,6 @@ p, li {
 }
 */
 
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
 }
@@ -121,3 +92,51 @@ p, li {
     text-align: left;
   }
 }
+.top-banner-box{
+	 width: 100%;
+    height: 300px;
+    margin: auto;
+    text-align:center; /*centers horizontally*/
+    background: radial-gradient(ellipse , #162c69, #2C53C7);
+}
+
+.top-banner-box p {
+	margin-top: 0px;
+	padding-top: 40px;
+	color: white;	
+	font-size: 40px;
+}
+.buttons-top-banner button{
+	width: 150px;
+	height: 120px;
+	padding-top: 50px;
+	margin-left: 40px;
+	background-color: white;
+	border-radius: 5px;
+	font-size: 14px;
+
+	
+}
+.buttons-top-banner button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.credit-card-container {
+	max-width: 1100px;
+	margin: 10px auto;
+	background-color: white;
+	border-radius: 2px;
+	padding: 20px 20px 20px 20px;
+}
+
+
+.content-container {
+	max-width: 1100px;
+	margin: 10px auto;
+	background-color: white;
+	border-radius: 2px;
+	padding: 20px 20px 20px 20px;
+
+}
+
